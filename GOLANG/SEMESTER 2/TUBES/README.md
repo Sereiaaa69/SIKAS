@@ -40,3 +40,53 @@ cd SIKAS
 
 # Jalankan program
 go run main.go
+
+```
+## Struktur Program
+
+```
+SIKAS/
+├── main.go          # Source code utama
+└── README.md        # Dokumentasi
+
+```
+## Struktur Data
+
+```go
+type Mahasiswa struct {
+    NIM          string
+    Nama         string
+    Pembayaran   [12]bool
+    TanggalBayar [12]string
+}
+```
+## Algoritma yang Digunakan
+
+| Algoritma | Fungsi | Cara Kerja |
+|-----------|--------|-------------|
+| Sequential Search | Mencari mahasiswa belum lunas | Mengecek satu per satu dari awal sampai ketemu |
+| Binary Search | Mencari mahasiswa belum lunas | Membagi data menjadi dua bagian, lalu mencari di bagian yang sesuai |
+| Insertion Sort | Mengurutkan berdasarkan nama | Mengambil satu per satu data lalu menyisipkan ke posisi yang tepat |
+| Selection Sort | Mengurutkan berdasarkan tunggakan | Mencari nilai tertinggi lalu menukarnya ke posisi awal |
+
+## Kelompok
+
+| Nama | NIM |
+|------|-----|
+| Fathan Ibrahamofiq | 108072500037 |
+| Muhammad Taufiqa Hadi | 108072500163 |
+
+**Kelas:** IF-05-02
+
+## Dosen Pengampu
+
+- Kharisma Monika Dian Pertiwi, S.Kom., M.Kom.
+- Dr. Tanzilal Mustaqim, S.Kom., M.Kom.
+
+## Universitas
+
+**Program Studi S1 Informatika**  
+**Fakultas Informatika**  
+**Universitas Telkom**  
+**Tahun Akademik 2025/2026**
+
